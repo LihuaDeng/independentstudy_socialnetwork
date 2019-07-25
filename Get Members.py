@@ -137,3 +137,4 @@ df = pd.DataFrame({ key:pd.Series(value) for key, value in ID_Dict.items() })
 #To CSV
 df.to_csv(r"C:\Users\lunad\Desktop\member_data\MemberID.csv")
 
+#### Same way to get Topics and Photos using GroupID
