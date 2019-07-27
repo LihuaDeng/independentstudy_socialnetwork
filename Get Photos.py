@@ -5,7 +5,7 @@
 
 
 import pandas as pd
-all_groups = pd.read_csv(r"C:\Users\lunad\Desktop\photo_5000-.csv", usecols = [0,1])
+all_groups = pd.read_csv(r"C:\Users\l***\Desktop\photo_5000-.csv", usecols = [0,1])
 
 #Get Group_ID to store in a list
 df = pd.DataFrame(all_groups)
@@ -29,8 +29,8 @@ def build_request(url, method='GET', groupid = None, page = None):
         'format': 'json',
         'nojsoncallback':'1'     
     }
-    consumer = oauth2.Consumer(key='cc6e0093965331473ef6d9be604b5a96', secret='a758040164b10f62')
-    token = oauth2.Token(key='72157709455713622-99a678a48136490f', secret='4a13c4e35c898f21')
+    consumer = oauth2.Consumer(key='cc6e0093965331473ef6d9be604b****', secret='a758040164b1****')
+    token = oauth2.Token(key='72157709455713622-99a678a48136****', secret='4a13c4e35c89****')
 
     params['oauth_consumer_key'] = consumer.key
     params['oauth_token']= token.key
